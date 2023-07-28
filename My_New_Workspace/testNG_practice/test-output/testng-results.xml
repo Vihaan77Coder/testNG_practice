@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T00:00:50 IST" name="Testing Baba" finished-at="2023-07-27T00:01:51 IST" duration-ms="60941">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T00:00:50 IST" name="Login Page Test" finished-at="2023-07-27T00:01:00 IST" duration-ms="9589">
+      <class name="testingbaba_test.LoginPage_Test">
+        <test-method is-config="true" signature="launch_url(java.lang.String)[pri:0, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:50 IST" name="launch_url" finished-at="2023-07-27T00:00:59 IST" duration-ms="8788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staging_url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method signature="getTitle_test()[pri:1, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:59 IST" name="getTitle_test" finished-at="2023-07-27T00:00:59 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle_test -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:59 IST" name="getAnalysis" finished-at="2023-07-27T00:00:59 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getTitle_test status=SUCCESS method=LoginPage_Test.getTitle_test()[pri:1, instance:testingbaba_test.LoginPage_Test@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickon_element()[pri:2, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:59 IST" name="clickon_element" finished-at="2023-07-27T00:00:59 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_element -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:59 IST" name="getAnalysis" finished-at="2023-07-27T00:00:59 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_element status=SUCCESS method=LoginPage_Test.clickon_element()[pri:2, instance:testingbaba_test.LoginPage_Test@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testingbaba_test.LoginPage_Test@4562e04d]" started-at="2023-07-27T00:00:59 IST" name="Teardown" finished-at="2023-07-27T00:01:00 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testingbaba_test.LoginPage_Test -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2023-07-27T00:01:00 IST" name="Text Box Test" finished-at="2023-07-27T00:01:10 IST" duration-ms="10059">
+      <class name="testingbaba_test.TextBox_Test">
+        <test-method is-config="true" signature="LaunchURL(java.lang.String)[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:00 IST" name="LaunchURL" finished-at="2023-07-27T00:01:07 IST" duration-ms="7257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staging_url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="clickon_element()[pri:1, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:07 IST" name="clickon_element" finished-at="2023-07-27T00:01:07 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_element -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:07 IST" name="getAnalysis" finished-at="2023-07-27T00:01:07 IST" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_element status=SUCCESS method=TextBox_Test.clickon_element()[pri:1, instance:testingbaba_test.TextBox_Test@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickon_textbox()[pri:2, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:07 IST" name="clickon_textbox" finished-at="2023-07-27T00:01:07 IST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_textbox -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:07 IST" name="getAnalysis" finished-at="2023-07-27T00:01:08 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_textbox status=SUCCESS method=TextBox_Test.clickon_textbox()[pri:2, instance:testingbaba_test.TextBox_Test@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="filldetails()[pri:3, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:08 IST" name="filldetails" finished-at="2023-07-27T00:01:09 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetails -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:09 IST" name="getAnalysis" finished-at="2023-07-27T00:01:09 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filldetails status=SUCCESS method=TextBox_Test.filldetails()[pri:3, instance:testingbaba_test.TextBox_Test@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="getverifydetails()[pri:4, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:09 IST" name="getverifydetails" finished-at="2023-07-27T00:01:09 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getverifydetails -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:09 IST" name="getAnalysis" finished-at="2023-07-27T00:01:10 IST" duration-ms="167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getverifydetails status=SUCCESS method=TextBox_Test.getverifydetails()[pri:4, instance:testingbaba_test.TextBox_Test@43bc63a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testingbaba_test.TextBox_Test@43bc63a3]" started-at="2023-07-27T00:01:10 IST" name="Teardown" finished-at="2023-07-27T00:01:10 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testingbaba_test.TextBox_Test -->
+    </test> <!-- Text Box Test -->
+    <test started-at="2023-07-27T00:01:10 IST" name="Check Box Test" finished-at="2023-07-27T00:01:23 IST" duration-ms="13212">
+      <class name="testingbaba_test.CheckBox_Test">
+        <test-method is-config="true" signature="checkbox_urllaunch(java.lang.String)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:10 IST" name="checkbox_urllaunch" finished-at="2023-07-27T00:01:18 IST" duration-ms="8024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staging_url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_urllaunch -->
+        <test-method signature="checkbox_elements()[pri:1, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:18 IST" name="checkbox_elements" finished-at="2023-07-27T00:01:18 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox_elements -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:18 IST" name="getAnalysis" finished-at="2023-07-27T00:01:18 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkbox_elements status=SUCCESS method=CheckBox_Test.checkbox_elements()[pri:1, instance:testingbaba_test.CheckBox_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="check_box_test()[pri:2, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:18 IST" name="check_box_test" finished-at="2023-07-27T00:01:18 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_box_test -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:18 IST" name="getAnalysis" finished-at="2023-07-27T00:01:18 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_box_test status=SUCCESS method=CheckBox_Test.check_box_test()[pri:2, instance:testingbaba_test.CheckBox_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="check_box_mobile()[pri:3, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:18 IST" name="check_box_mobile" finished-at="2023-07-27T00:01:22 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_box_mobile -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:22 IST" name="getAnalysis" finished-at="2023-07-27T00:01:22 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_box_mobile status=SUCCESS method=CheckBox_Test.check_box_mobile()[pri:3, instance:testingbaba_test.CheckBox_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="check_box_latpop()[pri:4, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:22 IST" name="check_box_latpop" finished-at="2023-07-27T00:01:22 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_box_latpop -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:22 IST" name="getAnalysis" finished-at="2023-07-27T00:01:22 IST" duration-ms="146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_box_latpop status=SUCCESS method=CheckBox_Test.check_box_latpop()[pri:4, instance:testingbaba_test.CheckBox_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="check_box_desktop()[pri:5, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:22 IST" name="check_box_desktop" finished-at="2023-07-27T00:01:23 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_box_desktop -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:23 IST" name="getAnalysis" finished-at="2023-07-27T00:01:23 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_box_desktop status=SUCCESS method=CheckBox_Test.check_box_desktop()[pri:5, instance:testingbaba_test.CheckBox_Test@4c12331b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testingbaba_test.CheckBox_Test@4c12331b]" started-at="2023-07-27T00:01:23 IST" name="Teardown" finished-at="2023-07-27T00:01:23 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testingbaba_test.CheckBox_Test -->
+    </test> <!-- Check Box Test -->
+    <test started-at="2023-07-27T00:01:23 IST" name="button click" finished-at="2023-07-27T00:01:32 IST" duration-ms="9354">
+      <class name="testingbaba_test.Buttons_test">
+        <test-method is-config="true" signature="launchURL(java.lang.String)[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:23 IST" name="launchURL" finished-at="2023-07-27T00:01:31 IST" duration-ms="7978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staging_url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="elements_click()[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:31 IST" name="elements_click" finished-at="2023-07-27T00:01:31 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elements_click -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:31 IST" name="getAnalysis" finished-at="2023-07-27T00:01:31 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=elements_click status=SUCCESS method=Buttons_test.elements_click()[pri:0, instance:testingbaba_test.Buttons_test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="buttonsclick()[pri:1, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:31 IST" name="buttonsclick" finished-at="2023-07-27T00:01:31 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buttonsclick -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:31 IST" name="getAnalysis" finished-at="2023-07-27T00:01:32 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buttonsclick status=SUCCESS method=Buttons_test.buttonsclick()[pri:1, instance:testingbaba_test.Buttons_test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickondoubleclick_rightclick()[pri:2, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:32 IST" name="clickondoubleclick_rightclick" finished-at="2023-07-27T00:01:32 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickondoubleclick_rightclick -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:32 IST" name="getAnalysis" finished-at="2023-07-27T00:01:32 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickondoubleclick_rightclick status=SUCCESS method=Buttons_test.clickondoubleclick_rightclick()[pri:2, instance:testingbaba_test.Buttons_test@dd05255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testingbaba_test.Buttons_test@dd05255]" started-at="2023-07-27T00:01:32 IST" name="Teardown" finished-at="2023-07-27T00:01:32 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testingbaba_test.Buttons_test -->
+    </test> <!-- button click -->
+    <test started-at="2023-07-27T00:01:32 IST" name="link_click" finished-at="2023-07-27T00:01:51 IST" duration-ms="18666">
+      <class name="testingbaba_test.Links_Test">
+        <test-method is-config="true" signature="LaunchURL(java.lang.String)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:32 IST" name="LaunchURL" finished-at="2023-07-27T00:01:40 IST" duration-ms="7964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Staging_url]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method signature="clickon_element()[pri:1, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:40 IST" name="clickon_element" finished-at="2023-07-27T00:01:41 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_element -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:41 IST" name="getAnalysis" finished-at="2023-07-27T00:01:41 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_element status=SUCCESS method=Links_Test.clickon_element()[pri:1, instance:testingbaba_test.Links_Test@139982de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickon_links()[pri:2, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:41 IST" name="clickon_links" finished-at="2023-07-27T00:01:41 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_links -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:41 IST" name="getAnalysis" finished-at="2023-07-27T00:01:41 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_links status=SUCCESS method=Links_Test.clickon_links()[pri:2, instance:testingbaba_test.Links_Test@139982de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickon_newtab()[pri:3, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:41 IST" name="clickon_newtab" finished-at="2023-07-27T00:01:44 IST" duration-ms="3113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon_newtab -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:44 IST" name="getAnalysis" finished-at="2023-07-27T00:01:45 IST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickon_newtab status=SUCCESS method=Links_Test.clickon_newtab()[pri:3, instance:testingbaba_test.Links_Test@139982de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="closebtn_backtohomepage()[pri:4, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:45 IST" name="closebtn_backtohomepage" finished-at="2023-07-27T00:01:47 IST" duration-ms="2025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebtn_backtohomepage -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:47 IST" name="getAnalysis" finished-at="2023-07-27T00:01:47 IST" duration-ms="156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closebtn_backtohomepage status=SUCCESS method=Links_Test.closebtn_backtohomepage()[pri:4, instance:testingbaba_test.Links_Test@139982de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method signature="clickupload_download()[pri:5, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:47 IST" name="clickupload_download" finished-at="2023-07-27T00:01:50 IST" duration-ms="3433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickupload_download -->
+        <test-method is-config="true" signature="getAnalysis(org.testng.ITestResult)[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:50 IST" name="getAnalysis" finished-at="2023-07-27T00:01:51 IST" duration-ms="678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickupload_download status=SUCCESS method=Links_Test.clickupload_download()[pri:5, instance:testingbaba_test.Links_Test@139982de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAnalysis -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:testingbaba_test.Links_Test@139982de]" started-at="2023-07-27T00:01:51 IST" name="Teardown" finished-at="2023-07-27T00:01:51 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- testingbaba_test.Links_Test -->
+    </test> <!-- link_click -->
+  </suite> <!-- Testing Baba -->
+</testng-results>
